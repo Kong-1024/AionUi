@@ -87,9 +87,7 @@ export const AGENT_MODES: Record<string, AgentModeOption[]> = {
   ],
   snow: [
     { value: 'default', label: 'Agent', description: 'Full agent mode with tool access' },
-    { value: 'plan', label: 'Plan', description: 'Planning mode for designing before implementation' },
     { value: 'yolo', label: 'YOLO', description: 'Auto-approve all operations without prompting' },
-    { value: 'agentTeam', label: 'Agent Team', description: 'Multi-agent collaboration mode' },
   ],
 };
 

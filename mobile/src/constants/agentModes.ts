@@ -71,9 +71,7 @@ export const AGENT_MODES: Record<string, AgentModeOption[]> = {
   ],
   snow: [
     { value: 'default', label: 'Agent' },
-    { value: 'plan', label: 'Plan' },
     { value: 'yolo', label: 'YOLO' },
-    { value: 'agentTeam', label: 'Agent Team' },
   ],
 };
 
