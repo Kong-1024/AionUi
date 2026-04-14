@@ -69,6 +69,12 @@ export const AGENT_MODES: Record<string, AgentModeOption[]> = {
     { value: 'plan', label: 'Plan', description: 'Read-only mode for planning and designing before implementation' },
     { value: 'ask', label: 'Ask', description: 'Q&A mode - no edits or command execution' },
   ],
+  snow: [
+    { value: 'default', label: 'Agent' },
+    { value: 'plan', label: 'Plan' },
+    { value: 'yolo', label: 'YOLO' },
+    { value: 'agentTeam', label: 'Agent Team' },
+  ],
 };
 
 /**
